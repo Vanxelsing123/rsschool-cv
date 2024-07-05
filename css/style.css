@@ -1,0 +1,187 @@
+html {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+*, 
+*::after, 
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/* header */
+
+.header__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    margin-bottom: 50px;
+}
+
+.title__rsschool {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.title__name {
+    margin-bottom: 30px;
+}
+
+.header__img {
+    width: 400px;
+    height: 600px;
+}
+
+/* main */
+
+.main {
+    margin-bottom: 50px;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.contact {
+    margin-bottom: 50px;
+}
+
+.contact__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact__item  {
+        display: flex;
+    margin-bottom: 50px;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 202px;
+}
+
+.contact__name {
+    color: coral;
+}
+
+.contact__li {
+    width: 220px;
+    padding: 5px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.contact__li:last-child {
+    margin-bottom: 0;
+}
+
+.about {
+    margin-bottom: 50px;
+}
+
+.about__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text__about {
+    width: 500px;
+}
+
+.skills {
+    margin-bottom: 50px;
+}
+
+.skills__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills__li {
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+}
+
+.examples {
+    margin-bottom: 50px;
+}
+
+.examples__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.code__examples {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+.experience {
+    margin-bottom: 50px;
+}
+
+.experience__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.education {
+    margin-bottom: 50px;
+}
+
+.education__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.language__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__img {
+    width: 200px;
+    height: 30px;
+}
